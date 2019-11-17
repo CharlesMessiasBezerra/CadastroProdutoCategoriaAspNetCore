@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewData["Title"] = "Produto";
+}
+<link rel="stylesheet" href="~/css/style.css">
+<script src="~/js/produto.js"></script>
+
+<div id="div_container_produto" class="container">
+    <div class="table-wrapper">
+        <div class="table-title">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2><b>Produtos</b></h2>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#" class="btn btn-success" data-toggle="modal" onclick="produtojs.inserir()"><i class="material-icons">&#xE147;</i> <span>Incluir</span></a>
+                </div>
+            </div>
+        </div>
+        <table id="tblproduto" class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                    <th>Categoria</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Edit Modal HTML -->
+<div id="addEditProdutoModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form>
+                <div class="modal-header">
+                    <h4 class="modal-title">Produto</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <input type="hidden" id="campoOperacao">
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Id</label>
+                        <input type="text" id="edtId" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Descrição</label>
+                        <input type="text" id="edtDescricao" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Preço</label>
+                        <input type="text" id="edtPreco" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Estoque</label>
+                        <input type="text" id="edtEstoque" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Categoria</label>
+                        <select id="cmbCategoria" class="form-control" required></select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancelar">
+                    <input type="submit" class="btn btn-success" value="Confirmar" onclick="produtojs.gravarRegistro()">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

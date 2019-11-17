@@ -1,0 +1,3 @@
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\obj\Debug\netcoreapp2.2\Usuario.Migration.csproj.CoreCompileInputs.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\obj\Debug\netcoreapp2.2\Usuario.Migration.AssemblyInfoInputs.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\obj\Debug\netcoreapp2.2\Usuario.Migration.AssemblyInfo.cs

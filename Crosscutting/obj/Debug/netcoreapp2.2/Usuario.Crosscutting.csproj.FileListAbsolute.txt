@@ -1,0 +1,4 @@
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Usuario.Crosscutting.csprojAssemblyReference.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Usuario.Crosscutting.csproj.CoreCompileInputs.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Usuario.Crosscutting.AssemblyInfoInputs.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Usuario.Crosscutting.AssemblyInfo.cs
