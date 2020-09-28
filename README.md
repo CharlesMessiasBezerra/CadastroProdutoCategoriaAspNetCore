@@ -18,4 +18,5 @@ Esse código foi desenvolvido com as seguintes tecnologias:
 ## ✍ Descrição
 
 Script para criar o banco de dados se encontra em (Solution>>Infrastructure>>SQL)
+
 Para Configurar Banco de dados alterar o Arquivo appsettings.json que se encontra em (Solution>>Interface>>appsettings)
